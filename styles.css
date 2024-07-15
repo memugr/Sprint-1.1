@@ -1,4 +1,4 @@
-/* Main CSS content */
+/*Main CSS content*/
 body {
     align-items: center;
     display: flex;
@@ -140,3 +140,39 @@ header {
     text-align: left;
 }
 
+/*Media Queries: tablet layout*/
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        flex-direction: column;
+    }
+
+    .logo, .nav, .social {
+        flex: 1 100%;
+        margin: 5px 0;
+    }
+
+    .content-main {
+        flex-direction: column;
+    }
+
+    .articles {
+        flex: 1;
+        margin-right: 0;
+    }
+
+    .article {
+        flex: 1 1 calc(50% - 20px)
+    }
+
+    .publicidad {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .ad {
+        padding: 10px;
+        text-align: left;
+        display: flex;
+        margin: 5px;
+    }
+}
