@@ -176,3 +176,77 @@ header {
         margin: 5px;
     }
 }
+
+/*Media Queries: mobile layout*/
+@media  (min-width: 100px) and (max-width: 767px) {
+    header {
+        flex-direction: column;
+        margin: 5px
+    }
+
+    .logo, .nav, .social {
+        flex: 1 100%;
+        margin: 10px;
+        padding: 10px; 
+        text-align: left
+    }
+
+    .banner {
+        flex: 1 100%;
+        margin: 10px;
+        padding: 10px
+    }
+
+    .content-main {
+        flex-direction: column;
+        padding: 10px; 
+    }
+
+    .articles {
+        flex: 1;
+        flex-direction: column; 
+        margin-right: 0;
+        padding: 10px; 
+        margin: 10px
+    }
+
+    .article {
+        flex: 1 1 100%;
+        margin: 10px 0; 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .navigation {
+        flex-basis: 100%;
+        margin: 10px 0; 
+        padding: 10px; 
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .publicidad {
+        margin-left: 0;
+        margin-top: 10px; 
+        padding: 10px; 
+        margin: 10px
+        
+    }
+
+    .ad {
+        flex: 1;
+        flex-basis: 100%;
+        padding: 10px; 
+        margin: 10px;
+        text-align: left;
+    }
+
+    .footer {
+        padding: 10px; 
+    }
+
+    .pie {
+        margin: 10px;
+        padding: 10px; 
+    }
+}
