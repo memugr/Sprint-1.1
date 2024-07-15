@@ -41,6 +41,15 @@ header {
     text-align: center;
 }
 
+.logo {
+    transition: all 0.3s ease;
+}
+
+.logo:hover {
+    background-color: #E99069;
+    transform: scale(1.2);
+}
+
 .nav {
     background-color: #f28b82;
     flex: 2;
