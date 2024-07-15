@@ -1,0 +1,142 @@
+/* Main CSS content */
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.outer-container {
+    background-color: #000; 
+    box-sizing: border-box;
+    max-width: 1200px;
+    padding: 10px;
+    width: 100%;
+}
+
+.content-header, .content-banner {
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content-header {
+    background-color: #37474F; 
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .social {
+    background-color: #f28b82;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.nav {
+    background-color: #f28b82;
+    flex: 2;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
+
+.content-banner {
+    background-color: #f57c00; 
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.banner {
+    background-color: #ffeb3b; 
+    box-sizing: border-box;
+    flex: 1;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+.content-main {
+    background-color: #000;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    max-width: 1200px;
+    padding: 20px;
+    width: 100%;
+}
+
+.articles {
+    background-color: #20516a;
+    box-sizing: border-box;
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.article {
+    background-color: #53acf5;
+    box-sizing: border-box;
+    flex: 1 1 calc(50% - 20px);
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.navigation {
+    background-color: #d4e6f4;
+    box-sizing: border-box;
+    flex-basis: 100%;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.publicidad {
+    background-color: #a45a54;
+    box-sizing: border-box;
+    display: flex;
+    flex: 1;
+    flex-direction: column; 
+    margin-left: 15px;
+    padding: 10px;
+}
+
+.ad {
+    background-color: #cbbe44;
+    box-sizing: border-box;
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer {
+    background-color: #000;
+    box-sizing: border-box;
+    margin-top: 20px;
+    max-width: 1200px;
+    padding: 10px;
+    width: 100%;
+}
+
+.pie {
+    background-color: #ffeb3b;
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
