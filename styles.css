@@ -96,7 +96,7 @@ header {
     padding: 10px;
 }
 
-.article {
+.news__article {
     background-color: #53acf5;
     box-sizing: border-box;
     flex: 1 1 calc(50% - 20px);
